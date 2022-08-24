@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+.LandingPage {
+  display: grid;
+  font-family: "Roboto Slab", serif;
+  color: white;
+  background: url("../Resources/BackgroundImage.png") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.NavBar {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 0 15px 0;
+  position: sticky;
+  top: 0;
+}
+
+.Scrolled {
+  background-color: black;
+  color: white;
+}
+
+.NavBarItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Home:hover {
+  cursor: pointer;
+}
+
+.Home > h4 {
+  margin: auto;
+}
+
+.Sections {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Sections > p {
+  padding: 0 10px 0 10px;
+  margin: auto;
+}
+
+.LandingArea {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+}
+
+.HeroTitle {
+  font-weight: bold;
+}
+
+.InfoArea {
+  background-color: white;
+}
