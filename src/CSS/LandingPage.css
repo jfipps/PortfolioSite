@@ -63,8 +63,34 @@
 
 .HeroTitle {
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeroTitle > p {
+  font-weight: normal;
+  font-size: 18px;
 }
 
 .InfoArea {
+  text-align: center;
   background-color: white;
+  padding: 50px 0 50px 0;
+  color: black;
+  border: 1px solid red;
+}
+
+.InfoDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AboutImage {
+}
+
+.AboutText {
 }
