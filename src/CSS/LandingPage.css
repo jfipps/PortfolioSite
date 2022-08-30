@@ -90,3 +90,47 @@
 .AboutTitle {
   padding-bottom: 50px;
 }
+
+.SkillsArea {
+  text-align: center;
+}
+
+.SkillsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Skill > img {
+  height: 50px;
+  width: 50px;
+}
+
+.ProjectsArea {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.ProjectsArea > img {
+  height: 750px;
+  width: 1000px;
+}
+
+.ProjectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CarouselDiv {
+  padding-bottom: 150px;
+}
