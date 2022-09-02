@@ -43,6 +43,7 @@ function ProjectsArea() {
       <div className="ProjectsArea">
         <Container>
           <h1 className="ProjectsHeader">Projects</h1>
+          <h1>This is a test</h1>
           <div className="ProjectCard">
             <div className="ProjectTitles">
               <h2
