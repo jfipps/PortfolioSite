@@ -3,6 +3,7 @@ import LandingArea from "../Components/LandingArea.js";
 import InfoArea from "../Components/InfoArea.js";
 import SkillsArea from "../Components/SkillsArea.js";
 import ProjectsArea from "../Components/ProjectsArea.js";
+import ContactArea from "../Components/ContactArea.js";
 import "../CSS/LandingPage.css";
 
 function LandingPage() {
@@ -25,6 +26,7 @@ function LandingPage() {
         <InfoArea></InfoArea>
         <SkillsArea></SkillsArea>
         <ProjectsArea></ProjectsArea>
+        <ContactArea></ContactArea>
       </section>
     </>
   );

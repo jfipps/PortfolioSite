@@ -146,7 +146,6 @@
 .CarouselDiv {
   display: flex;
   flex-direction: column;
-  padding-bottom: 150px;
 }
 
 .Slider > img {
@@ -175,4 +174,21 @@
 .Selected {
   padding-bottom: 10px;
   border-bottom: 1px solid black;
+}
+
+.ContactArea {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Contacts {
+  display: flex;
+  flex-direction: row;
+}
+
+.ContactCard {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
