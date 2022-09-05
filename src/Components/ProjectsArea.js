@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import SimpleImageSlider from "react-simple-image-slider";
 import { GrFormPrevious, GrFormNext } from "react-icons/gr";
 import { BsDot } from "react-icons/bs";
+import { TbExternalLink } from "react-icons/tb";
 import Spoofy1 from "../Resources/Spoofy1.png";
 import Spoofy2 from "../Resources/Spoofy2.png";
 import Spoofy3 from "../Resources/Spoofy3.png";
@@ -42,23 +43,31 @@ function ProjectsArea() {
     <>
       <div className="ProjectsArea">
         <Container>
-          <h1 className="ProjectsHeader">Projects</h1>
+          <h1 className="SectionHeader">Projects</h1>
           <div className="ProjectCard">
             <div className="ProjectTitles">
-              <h2
-                onClick={() => ChangeActiveProject("Spoofy")}
-                className={
-                  activeProject === "Spoofy" ? "Selected" : "NotSelected"
-                }
-              >
-                Spoofy
-              </h2>
-              <h2
-                onClick={() => ChangeActiveProject("NHL")}
-                className={activeProject === "NHL" ? "Selected" : "NotSelected"}
-              >
-                NHLHistory
-              </h2>
+              <div className="ProjectLink">
+                <h2
+                  onClick={() => ChangeActiveProject("Spoofy")}
+                  className={
+                    activeProject === "Spoofy" ? "Selected" : "NotSelected"
+                  }
+                >
+                  Spoofy
+                </h2>
+                <TbExternalLink className="ExternalLink"></TbExternalLink>
+              </div>
+              <div className="ProjectLink">
+                <h2
+                  onClick={() => ChangeActiveProject("NHL")}
+                  className={
+                    activeProject === "NHL" ? "Selected" : "NotSelected"
+                  }
+                >
+                  NHLHistory
+                </h2>
+                <TbExternalLink className="ExternalLink"></TbExternalLink>
+              </div>
             </div>
             <div
               className={

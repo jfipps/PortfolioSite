@@ -13,7 +13,7 @@ function SkillsArea() {
     <>
       <div className="SkillsArea">
         <Container>
-          <h1 className="SkillsTitle">Skills</h1>
+          <h1 className="SectionHeader">Skills</h1>
           <div className="SkillsContainer">
             <div className="Skill">
               <img src={JS} alt="Javascript" />

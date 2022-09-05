@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
+import { BsLinkedin, BsTelephoneFill } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 import "../CSS/LandingPage.css";
 
 function ContactArea() {
@@ -7,19 +9,19 @@ function ContactArea() {
     <>
       <div className="ContactArea">
         <Container>
-          <h1>Contact</h1>
+          <h1 className="SectionHeader">Contact</h1>
           <div className="Contacts">
             <div className="ContactCard">
-              <h3>Email</h3>
-              <h4>jfipps1995@gmail.com</h4>
+              <MdEmail size={24}></MdEmail>
+              <p>jfipps1995@gmail.com</p>
             </div>
             <div className="ContactCard">
-              <h3>Phone</h3>
-              <h4>714.392.8339</h4>
+              <BsTelephoneFill size={24}></BsTelephoneFill>
+              <p>714.392.8339</p>
             </div>
             <div className="ContactCard">
-              <h3>LinkedIn</h3>
-              <h4>https://www.linkedin.com/in/jared-fipps</h4>
+              <BsLinkedin size={24}></BsLinkedin>
+              <p>https://www.linkedin.com/in/jared-fipps</p>
             </div>
           </div>
         </Container>

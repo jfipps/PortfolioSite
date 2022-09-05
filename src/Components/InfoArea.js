@@ -8,7 +8,7 @@ function InfoArea() {
     <>
       <div className="InfoArea">
         <Container>
-          <h1 className="AboutTitle">About Me</h1>
+          <h1 className="SectionHeader">About Me</h1>
           <div className="InfoDiv">
             <div className="AboutImage">
               <img src={ProfilePic} alt="Jared Image" />
