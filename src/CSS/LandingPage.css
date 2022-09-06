@@ -64,6 +64,10 @@
   text-decoration: none;
 }
 
+.ScrollLink:hover {
+  cursor: pointer;
+}
+
 .LandingArea {
   display: flex;
   flex-direction: row;
@@ -98,7 +102,15 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+.AboutImage {
+  border-radius: 25px;
+}
+
+.AboutText {
+  width: 50%;
 }
 
 .SkillsArea {
@@ -184,6 +196,10 @@
   cursor: pointer;
 }
 
+.Visible {
+  border-radius: 25px;
+}
+
 .Invisible {
   display: none;
 }
@@ -201,6 +217,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding-bottom: 150px;
 }
 
 .Contacts {
@@ -215,4 +232,8 @@
   text-align: center;
   align-items: center;
   width: 50%;
+}
+
+.ContactCard > p {
+  padding-top: 20px;
 }

@@ -41,7 +41,7 @@ function ProjectsArea() {
 
   return (
     <>
-      <div className="ProjectsArea">
+      <div id="projects" className="ProjectsArea">
         <Container>
           <h1 className="SectionHeader">Projects</h1>
           <div className="ProjectCard">
@@ -55,7 +55,6 @@ function ProjectsArea() {
                 >
                   Spoofy
                 </h2>
-                <TbExternalLink className="ExternalLink"></TbExternalLink>
               </div>
               <div className="ProjectLink">
                 <h2
@@ -66,7 +65,6 @@ function ProjectsArea() {
                 >
                   NHLHistory
                 </h2>
-                <TbExternalLink className="ExternalLink"></TbExternalLink>
               </div>
             </div>
             <div

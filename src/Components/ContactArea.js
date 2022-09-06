@@ -7,7 +7,7 @@ import "../CSS/LandingPage.css";
 function ContactArea() {
   return (
     <>
-      <div className="ContactArea">
+      <div id="contact" className="ContactArea">
         <Container>
           <h1 className="SectionHeader">Contact</h1>
           <div className="Contacts">

@@ -11,7 +11,7 @@ import "../CSS/LandingPage.css";
 function SkillsArea() {
   return (
     <>
-      <div className="SkillsArea">
+      <div id="skills" className="SkillsArea">
         <Container>
           <h1 className="SectionHeader">Skills</h1>
           <div className="SkillsContainer">

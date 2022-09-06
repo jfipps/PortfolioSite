@@ -17,31 +17,7 @@ function LandingArea() {
 
   return (
     <>
-      <div className={color ? "NavBar Scrolled" : "NavBar"}>
-        <Container>
-          <div className="NavBarItems">
-            <div className="Home">
-              <h4 id="logo">JF</h4>
-            </div>
-            <div className="Sections">
-              <p>About</p>
-              <p>Skills</p>
-              <p>Projects</p>
-              <p>Contact</p>
-              <p>
-                <a
-                  href={require("../Resources/Jared_Fipps_Resume_2022.docx")}
-                  download="JFippsResume"
-                  className="DownloadLink"
-                >
-                  Resume
-                </a>
-              </p>
-            </div>
-          </div>
-        </Container>
-      </div>
-      <div className="LandingArea">
+      <div id="home" className="LandingArea">
         <Container>
           <div className="HeroTitle">
             <h1>Hello! I'm Jared.</h1>

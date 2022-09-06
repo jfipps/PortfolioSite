@@ -6,20 +6,20 @@ import "../CSS/LandingPage.css";
 function InfoArea() {
   return (
     <>
-      <div className="InfoArea">
+      <div id="info" className="InfoArea">
         <Container>
           <h1 className="SectionHeader">About Me</h1>
           <div className="InfoDiv">
-            <div className="AboutImage">
-              <img src={ProfilePic} alt="Jared Image" />
+            <div>
+              <img src={ProfilePic} alt="Jared Image" className="AboutImage" />
             </div>
             <div className="AboutText">
-              <h3>
+              <h4>
                 I am a software developer based in Irvine, CA. I graduated with
                 a computer science degree from California State University,
                 Fullerton. I am currently looking for web development positions
                 working with React and NodeJS.
-              </h3>
+              </h4>
             </div>
           </div>
         </Container>
